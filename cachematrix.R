@@ -33,7 +33,6 @@
                         message("getting cached data")
                         return(xi)
                 }
-                x$set(matrix1)
                 data <- x$get()
                 xi <- solve(data, ...)
                 x$setinv(xi)
